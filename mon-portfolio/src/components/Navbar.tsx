@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {useTranslation} from 'react-i18next'
 
 export default function Navbar() {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
     const [open, setOpen] = useState(false)
 
     const links = [
