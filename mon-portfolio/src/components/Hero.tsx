@@ -1,8 +1,7 @@
 import {useTranslation} from "react-i18next";
 
 export default function Hero () {
-    const stack = ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker']
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
 
     return (
         <section style={{padding: '120px 0 64px', borderBottom: '1px solid #2a2a2a'}}>

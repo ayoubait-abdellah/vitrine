@@ -2,7 +2,7 @@ import {useTranslation} from "react-i18next";
 
 export default function About() {
     const stack = ['React', 'Vue', 'Node.js', 'REST API', 'GraphQL', 'MongoDB', 'PostgreSQL', 'Git', 'OWASP']
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
     return (
         <section id="apropos"
                  style={{padding: '48px 0', backgroundColor: '#1c1c1e', borderBottom: '1px solid #2a2a2a'}}>

@@ -8,7 +8,7 @@ export default function Contact () {
     const [sending, setSending] = useState(false)
     const [sent, setSent] = useState(false)
     const [error, setError] = useState(false)
-    const {t, i18n} = useTranslation()
+    const { t } = useTranslation()
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
