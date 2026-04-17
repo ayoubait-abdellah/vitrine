@@ -9,6 +9,7 @@ const projects = [
             en: 'Full-stack crypto tracking platform with RSS press review, OAuth2 auth and multi-role management'
         },
         tags: ['React', 'Node.js', 'RSS', 'OAuth2'],
+        image: '/ressources/cryptodashboard.png',
         link: ''
     },
     {
@@ -18,13 +19,15 @@ const projects = [
             en: 'Full-stack trip planner with activity suggestions, accommodations, restaurants and map itineraries'
         },
         tags: ['React', 'Node.js', 'Maps', 'Swagger'],
-        link: 'https://github.com/ayoubait-abdellah/Roadtrip'
+        link: 'https://github.com/ayoubait-abdellah/Roadtrip',
+        image: "/ressources/roadtrip.png",
     },
     {
         name: 'Portfolio',
         desc: {fr: 'Portfolio de presentation', en: 'Presentation portfolio'},
         tags: ['React', 'Typescript'],
-        link: 'https://github.com/ayoubait-abdellah/vitrine'
+        link: 'https://github.com/ayoubait-abdellah/vitrine',
+        image: "/ressources/portfolio.png",
     },
     {
         name: 'Taxi Driver',
@@ -34,10 +37,11 @@ const projects = [
         },
         tags: ['Python', 'RL', 'Q-Learning', 'Deep Learning'],
         link: 'https://github.com/ayoubait-abdellah/TaxiDriver',
+        image: "/ressources/taxidriver.png",
     },
 ]
 export default function Projects() {
-    const { t, i18n } = useTranslation()
+    const {t, i18n} = useTranslation()
     return (
         <section id="projets"
                  style={{padding: '48px 0', backgroundColor: '#242426', borderBottom: '1px solid #2a2a2a'}}>
@@ -87,16 +91,26 @@ export default function Projects() {
                                 borderRadius: '8px',
                                 marginBottom: '12px',
                                 border: '1px solid #3a3a3a',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center'
+                                overflow: 'hidden'
                             }}>
-                                <div style={{
-                                    width: '40%',
-                                    height: '2px',
-                                    backgroundColor: '#4a4a4a',
-                                    borderRadius: '2px'
-                                }}></div>
+                                {p.image
+                                    ? <img src={p.image} alt={p.name}
+                                           style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
+                                    : <div style={{
+                                        width: '100%',
+                                        height: '100%',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center'
+                                    }}>
+                                        <div style={{
+                                            width: '40%',
+                                            height: '2px',
+                                            backgroundColor: '#4a4a4a',
+                                            borderRadius: '2px'
+                                        }}></div>
+                                    </div>
+                                }
                             </div>
                             <p style={{
                                 fontSize: '14px',
