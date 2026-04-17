@@ -39,7 +39,7 @@ jobs:
           VITE_EMAILJS_PUBLIC_KEY: 0ZSANdlYDqJPvciFX
           VITE_EMAILJS_SERVICE_ID: service_4p2m6a4
           VITE_EMAILJS_TEMPLATE_ID: template_oirni2p
-        run: cd mon-portfolio && npm run build
+        run: cd mon-portfolio && npm install && npm run build
 
 # Please do not touch the following action
       - name: Store deployment content
