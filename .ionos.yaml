@@ -1,0 +1,3 @@
+---
+distFolder: mon-portfolio/dist
+buildCommand: cd mon-portfolio && npm run build
