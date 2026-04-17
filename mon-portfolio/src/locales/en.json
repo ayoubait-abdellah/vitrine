@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "projects": "Projects",
+    "skills": "Skills",
+    "about": "About",
+    "contact": "Contact me"
+  },
+  "hero": {
+    "tag": "Available for new opportunities",
+    "title": "Full-stack",
+    "subtitle": "developer.",
+    "desc": "I design and build modern web applications, from backend to interface. Passionate about clean code and smooth experiences.",
+    "cta_contact": "Contact me",
+    "cta_projects": "See my projects"
+  },
+  "projects": {
+    "title": "Recent projects"
+  },
+  "about": {
+    "title": "About",
+    "heading": "Full Stack JS Developer looking for a permanent position",
+    "p1": "Having worked at several Parisian startups, I've developed a strong product culture and the ability to ship fast. I enjoy both building smooth interfaces and robust backends.",
+    "p2": "Currently finishing my degree at Epitech Paris (Software Architect), I'm looking for a permanent role where I can take on technical responsibilities and contribute to an ambitious project with a great team.",
+    "hardskills": "Hard Skills",
+    "languages": "Languages",
+    "education": "Education"
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Let's work together",
+    "desc": "An opportunity, a project, a question? Write to me, I reply within 24h.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "An error occurred, please try again."
+  },
+  "footer": {
+    "role": "Full-stack developer"
+  }
+}

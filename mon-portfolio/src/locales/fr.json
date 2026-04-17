@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "projects": "Projets",
+    "skills": "Compétences",
+    "about": "À propos",
+    "contact": "Me contacter"
+  },
+  "hero": {
+    "tag": "Disponible pour de nouvelles opportunités",
+    "title": "Développeur",
+    "subtitle": "full-stack.",
+    "desc": "Je conçois et développe des applications web modernes, du backend à l'interface. Passionné par le code propre et les expériences fluides.",
+    "cta_contact": "Me contacter",
+    "cta_projects": "Voir mes projets"
+  },
+  "projects": {
+    "title": "Projets récents"
+  },
+  "about": {
+    "title": "À propos",
+    "heading": "Développeur Full Stack JS à la recherche d'un CDI",
+    "p1": "Passé par plusieurs startups parisiennes, j'ai acquis une vraie culture du produit et de la livraison rapide. J'aime autant concevoir une interface fluide que construire un backend robuste.",
+    "p2": "Actuellement en fin de cursus à Epitech Paris (Architecte Logiciel), je recherche un CDI où je pourrai prendre des responsabilités techniques et contribuer à un projet ambitieux avec une équipe soudée.",
+    "hardskills": "Hard Skills",
+    "languages": "Langues",
+    "education": "Formation"
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Travaillons ensemble",
+    "desc": "Une opportunité, un projet, une question ? Écrivez-moi, je réponds sous 24h.",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur est survenue, réessayez."
+  },
+  "footer": {
+    "role": "Développeur full-stack"
+  }
+}
