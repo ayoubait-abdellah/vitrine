@@ -3,12 +3,12 @@ import emailjs from "@emailjs/browser";
 import {EMAILJS_CONFIG} from "../config/emailjs.ts";
 import {useTranslation} from "react-i18next";
 
-export default function Contact () {
+export default function Contact() {
     const formRef = useRef<HTMLFormElement>(null)
     const [sending, setSending] = useState(false)
     const [sent, setSent] = useState(false)
     const [error, setError] = useState(false)
-    const { t } = useTranslation()
+    const {t} = useTranslation()
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
@@ -145,26 +145,30 @@ export default function Contact () {
                         </button>
                     </form>
                     <div style={{display: 'flex', gap: '10px', marginTop: '18px'}}>
-                        <button style={{
-                            fontSize: '12px',
-                            color: '#888888',
-                            backgroundColor: 'transparent',
-                            border: '1px solid #3a3a3a',
-                            borderRadius: '8px',
-                            padding: '7px 14px',
-                            cursor: 'pointer'
-                        }}>GitHub
-                        </button>
-                        <button style={{
-                            fontSize: '12px',
-                            color: '#888888',
-                            backgroundColor: 'transparent',
-                            border: '1px solid #3a3a3a',
-                            borderRadius: '8px',
-                            padding: '7px 14px',
-                            cursor: 'pointer'
-                        }}>LinkedIn
-                        </button>
+                        <a href={'https://github.com/ayoubait-abdellah'}>
+                            <button style={{
+                                fontSize: '12px',
+                                color: '#888888',
+                                backgroundColor: 'transparent',
+                                border: '1px solid #3a3a3a',
+                                borderRadius: '8px',
+                                padding: '7px 14px',
+                                cursor: 'pointer'
+                            }}>GitHub
+                            </button>
+                        </a>
+                        <a href={'https://www.linkedin.com/in/ayoub-ait-abdellah-3ba226179/'}>
+                            <button style={{
+                                fontSize: '12px',
+                                color: '#888888',
+                                backgroundColor: 'transparent',
+                                border: '1px solid #3a3a3a',
+                                borderRadius: '8px',
+                                padding: '7px 14px',
+                                cursor: 'pointer'
+                            }}>LinkedIn
+                            </button>
+                        </a>
                         <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" style={{
                             fontSize: '12px',
                             color: '#888888',
