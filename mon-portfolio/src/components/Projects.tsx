@@ -10,7 +10,7 @@ const projects = [
         },
         tags: ['React', 'Node.js', 'RSS', 'OAuth2'],
         image: '/ressources/cryptodashboard.png',
-        link: ''
+        link: 'https://github.com/ayoubait-abdellah/cryptoDashboard'
     },
     {
         name: 'Epic Road Trip',
