@@ -41,7 +41,7 @@ const projects = [
     },
 ]
 export default function Projects() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     return (
         <section id="projets"
                  style={{padding: '48px 0', backgroundColor: '#242426', borderBottom: '1px solid #2a2a2a'}}>
