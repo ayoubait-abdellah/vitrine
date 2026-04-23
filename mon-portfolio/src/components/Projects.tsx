@@ -3,6 +3,16 @@ import {useTranslation} from "react-i18next";
 
 const projects = [
     {
+        name: 'ChessClock',
+        desc: {
+            fr: 'Application horloge pour les echecs',
+            en: 'chess clock application'
+        },
+        tags: ['Flutter', 'Dart'],
+        image: '/ressources/chessclock.png',
+        link: 'https://github.com/ayoubait-abdellah/chessclock'
+    },
+    {
         name: 'CryptoDashboard',
         desc: {
             fr: 'Plateforme full-stack de suivi crypto avec revue de presse RSS, auth OAuth2 et gestion multi-rôles',
