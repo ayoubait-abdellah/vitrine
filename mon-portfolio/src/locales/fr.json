@@ -6,24 +6,24 @@
     "contact": "Me contacter"
   },
   "hero": {
-    "tag": "Disponible pour de nouvelles opportunités",
+    "tag": "Disponible pour un CDI",
     "title": "Développeur",
-    "subtitle": "full-stack.",
-    "desc": "Je conçois et développe des applications web modernes, du backend à l'interface. Passionné par le code propre et les expériences fluides.",
+    "subtitle": "Full Stack JS.",
+    "desc": "Diplômé Epitech Paris (Architecte Logiciel, Bac+5) et 2 ans d'expérience professionnelle. Maîtrise de React, Node.js et des bases de données relationnelles et NoSQL. Rigoureux, autonome et à l'aise en équipe.",
     "cta_contact": "Me contacter",
     "cta_projects": "Voir mes projets"
   },
-  "projects": {
-    "title": "Projets récents"
-  },
   "about": {
     "title": "À propos",
-    "heading": "Développeur Full Stack JS à la recherche d'un CDI",
-    "p1": "Passé par plusieurs startups parisiennes, j'ai acquis une vraie culture du produit et de la livraison rapide. J'aime autant concevoir une interface fluide que construire un backend robuste.",
-    "p2": "Actuellement en fin de cursus à Epitech Paris (Architecte Logiciel), je recherche un CDI où je pourrai prendre des responsabilités techniques et contribuer à un projet ambitieux avec une équipe soudée.",
-    "hardskills": "Hard Skills",
+    "heading": "Développeur Full Stack JS diplômé Epitech",
+    "p1": "Diplômé en août 2024 du titre d'Architecte Logiciel à Epitech Paris (niveau Bac+5), j'ai acquis 2 ans d'expérience professionnelle en entreprise sur des projets web concrets.",
+    "p2": "Je recherche un CDI en Île-de-France au sein d'une équipe technique structurée, où je pourrai mettre à profit mes compétences et continuer à progresser.",
+    "hardskills": "Compétences techniques",
     "languages": "Langues",
     "education": "Formation"
+  },
+  "projects": {
+    "title": "Projets récents"
   },
   "contact": {
     "title": "Contact",

@@ -6,24 +6,24 @@
     "contact": "Contact me"
   },
   "hero": {
-    "tag": "Available for new opportunities",
-    "title": "Full-stack",
-    "subtitle": "developer.",
-    "desc": "I design and build modern web applications, from backend to interface. Passionate about clean code and smooth experiences.",
+    "tag": "Available for a permanent position",
+    "title": "Full Stack",
+    "subtitle": "JS Developer.",
+    "desc": "Epitech Paris graduate (Software Architect, Master's level) with 2 years of professional experience. Proficient in React, Node.js and both relational and NoSQL databases. Reliable, autonomous and a team player.",
     "cta_contact": "Contact me",
     "cta_projects": "See my projects"
   },
-  "projects": {
-    "title": "Recent projects"
-  },
   "about": {
     "title": "About",
-    "heading": "Full Stack JS Developer looking for a permanent position",
-    "p1": "Having worked at several Parisian startups, I've developed a strong product culture and the ability to ship fast. I enjoy both building smooth interfaces and robust backends.",
-    "p2": "Currently finishing my degree at Epitech Paris (Software Architect), I'm looking for a permanent role where I can take on technical responsibilities and contribute to an ambitious project with a great team.",
-    "hardskills": "Hard Skills",
+    "heading": "Full Stack JS Developer — Epitech Graduate",
+    "p1": "Graduated in August 2024 with a Software Architect degree from Epitech Paris (Master's level). I have 2 years of hands-on professional experience on real-world web projects.",
+    "p2": "I am looking for a permanent position in the Paris area within a structured technical team, where I can apply my skills and keep growing.",
+    "hardskills": "Technical Skills",
     "languages": "Languages",
     "education": "Education"
+  },
+  "projects": {
+    "title": "Recent projects"
   },
   "contact": {
     "title": "Contact",
